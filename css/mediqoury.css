@@ -1,0 +1,220 @@
+@media screen and (max-width:768px) {
+    nav ul {
+        display: none;
+    }
+
+nav .icon {
+        display:flex;
+    }
+
+    .show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: inherit;
+        top: 85px;
+        width: 100%;
+        height: 310px;
+        gap: 15px;
+        margin: 0 auto;
+        color: #fff;
+        background: #192121;
+    }
+
+    .hero-containet{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse
+    }
+
+    
+
+    .card-sec{
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    .hero-text a{
+        display: flex;
+        margin: 20px 0;
+    }
+
+    .hero-icon{
+        display: flex;
+       margin: 0 0;
+    }
+
+    .about-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    .hero-img img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        margin:  30px auto;
+    }
+
+    .hero-icon a {
+        margin: 1rem .5rem;
+    }
+
+    .about-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       padding: 0 0;
+    }
+
+    .about-text {
+        margin-left: 5rem;
+    }
+ 
+    textarea {
+        width: 90%;
+    }
+
+}
+
+
+
+/* Mediaquery 992px */
+
+@media screen and (max-width:992px){
+    .hero-text{
+        margin: 5rem 7rem;
+    }
+    .hero-img img{
+        margin: 0 6rem;
+    }
+    .about-sec img{
+        margin: 0 4rem;
+    }
+
+    .about-text {
+        margin:5rem 7rem
+    }
+
+    .card-sec{
+        margin: 0;
+        padding: 30px 0;
+    }
+    .card-sec .card {
+        width: 280px;
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    .btn{
+        width: 180px;
+        height: 33px;
+    }
+
+    .btn i{
+        display: none;
+    }
+
+    .portfolio-card .card{
+        width: 280px;
+        height: 300px;
+        margin-top: 60px;
+
+    }
+    .conect1 input {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+
+    .hero-text{
+       width: 70%;
+    }
+    .hero-text h1{
+        font-size: 25px;
+    }
+    .hero-text h3{
+        font-size: 22px;
+    }
+
+    .hero-icon a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+       
+    }
+    .about-text h1{
+        font-size: 25px;
+    }
+    .about-text h{
+        font-size: 22px;
+    }
+    .about-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-img img{
+    width: 200px;
+    height: 200px;
+    }
+
+    .about-text{
+       width: 100%;
+    }
+    .btn{
+        display: flex;
+        margin: 20px auto;
+    }
+
+    .about-sec img{
+        width: 90%;
+       
+    }
+
+    .project-text h1 {
+        font-size: 25px;
+    }
+    .portfolio-text h1 {
+        font-size: 25px;
+       
+    }
+    .contact-text h1{
+        font-size: 25px;
+    }
+
+    .portfolio-card .card{
+       width: 90%;
+       display: flex;
+       margin: 20px auto;
+
+    }
+
+    .conect1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conect1 input {
+        width: 90%;
+  
+    }
+    textarea {
+        width: 90%;
+    }
+}
